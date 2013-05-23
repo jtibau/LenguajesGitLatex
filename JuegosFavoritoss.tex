@@ -1,0 +1,39 @@
+\documentclass[12pt,oneside]{book}
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{a4paper}                   			% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or epsß with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+
+\usepackage[spanish]{babel}			% Permite que partes automáticas del documento aparezcan en castellano.
+\usepackage[utf8]{inputenc}			% Permite escribir tildes y otros caracteres directamente en el .tex
+\usepackage[T1]{fontenc}				% Asegura que el documento resultante use caracteres de una fuente apropiada.
+
+\usepackage{hyperref}				% Permite poner urls y links dentro del documento
+
+\title{Mi Juego Favorito}
+\author{José Velez
+\\Carlos Ramirez
+\\Diego Cabrera}
+%\date{}							% Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\chapter{Introducción}
+Este libro fue creado como una hherramienta colaborativa de archivo de texto plano. La herramienta que habilita dicha colaboración, en este taller, es Git.
+
+\chapter{Los Juegos}
+
+\include{juegos/Solitario}
+\include{juegos/Snake}
+%\include{juegos/CallofDuty}
+
+\chapter{Conclusiones}
+Los juegos Solitario, Snake y Call of Duty son juegos muy populares; el Snake es un divertido juego adaptado en los teléfono Nokia que fueron unos de las primeras marcas en aparecer en nuestro país, el solitario es un juego de cartas donde debes ordenar las cartas desde el AS al REY, y se deben ordenar en forma descendente y alternando los colores, y Call of Duty es un juego de estrategia donde se simulas todas las guerras mundiales, donde debes estar alerta siempre.
+
+
+\end{document}  
